@@ -52,6 +52,17 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Accessibility-focused color extensions
+				focus: {
+					ring: 'hsl(var(--focus-ring))',
+					background: 'hsl(var(--focus-background))'
+				},
+				email: {
+					unread: 'hsl(var(--email-unread))',
+					read: 'hsl(var(--email-read))',
+					selected: 'hsl(var(--email-selected))',
+					hover: 'hsl(var(--email-hover))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
